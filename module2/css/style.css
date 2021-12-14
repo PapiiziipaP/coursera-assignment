@@ -1,5 +1,108 @@
+/*Clear all browser default setting*/
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+/*Font*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-width: 265px;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.groupSection {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.column{
+    float: left;
+    margin-bottom: 15px;
+}
+
+.innerColumn {
+    position: relative;
+    margin: 0px 15px 0px 15px;
+    background-color: #e0e0e0;
+    border: 2px solid #c1c1c1;
+}
+
+.sectionHead {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    background-color: #e34f09;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.content {
+    position: relative;
+    margin-top: 60px;
+    padding: 15px;
+}
+
+header {
+    padding: 50px;
+    text-transform: uppercase;
+}
+
+/*Responsive*/
+
+/*Desktop*/
+@media (min-width: 992px) {
+
+    .column {
+        width: 33.33%;
+    }
+
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .column {
+        width: 50%;
+    }
+
+    .column:nth-child(3) {
+        width: 100%;
+    }
+    
+}
+
+/*Mobile*/
+@media (max-width: 767px) {
+    
+    .column {
+        width: 100%;
+    }
+    
+}
+
