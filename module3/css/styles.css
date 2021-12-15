@@ -1,0 +1,83 @@
+/*Body*/
+body{
+    min-width:360px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 600;
+}
+/*End Body setting*/
+
+/*Navbar setting*/
+
+nav.navbar.navbar-default {
+    background-color: #D32F2F;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand h1 {
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active {
+    color: #000000;
+    background-color: #e0e0e0;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover {
+    background-color: #D32F2F;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #e0e0e0;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+/*End Navbar setting*/
+
+/*Section*/
+
+section.container {
+    background-color: #E0E0E0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.sectionDetail {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
